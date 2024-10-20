@@ -1,0 +1,26 @@
+{
+    "data": {
+        "type": "Regional",
+        "components": [
+            "H2O",
+            "O2"
+        ],
+        "geometry": {
+            "type": "point",
+            "coordinates": [
+                5.6462,
+                52.1009
+            ]
+        },
+        "municipality": "",
+        "url": "",
+        "province": null,
+        "organisation": "Provincie",
+        "location": "Nederland",
+        "year_start": "",
+        "description": {
+            "NL": "Test A",
+            "EN": "Test A"
+        }
+    }
+}

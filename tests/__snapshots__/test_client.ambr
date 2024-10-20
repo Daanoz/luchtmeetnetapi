@@ -1,0 +1,58 @@
+# serializer version: 1
+# name: test_get_all_components
+  list([
+    ComponentsData(name=MultiLanguageString(EN='Water', NL='Water'), formula='H2O'),
+    ComponentsData(name=MultiLanguageString(EN='Oxygen', NL='Zuurstof'), formula='O2'),
+    ComponentsData(name=MultiLanguageString(EN='Water', NL='Water'), formula='H2O'),
+    ComponentsData(name=MultiLanguageString(EN='Oxygen', NL='Zuurstof'), formula='O2'),
+    ComponentsData(name=MultiLanguageString(EN='Water', NL='Water'), formula='H2O'),
+    ComponentsData(name=MultiLanguageString(EN='Oxygen', NL='Zuurstof'), formula='O2'),
+  ])
+# ---
+# name: test_get_all_lki
+  list([
+    LkiValuesData(station_number='TESTA', value=3.0, timestamp_measured='2024-10-12T21:00:00+00:00', formula='LKI'),
+    LkiValuesData(station_number='TESTA', value=4.0, timestamp_measured='2024-10-12T22:00:00+00:00', formula='LKI'),
+    LkiValuesData(station_number='TESTA', value=3.0, timestamp_measured='2024-10-12T21:00:00+00:00', formula='LKI'),
+    LkiValuesData(station_number='TESTA', value=4.0, timestamp_measured='2024-10-12T22:00:00+00:00', formula='LKI'),
+    LkiValuesData(station_number='TESTA', value=3.0, timestamp_measured='2024-10-12T21:00:00+00:00', formula='LKI'),
+    LkiValuesData(station_number='TESTA', value=4.0, timestamp_measured='2024-10-12T22:00:00+00:00', formula='LKI'),
+  ])
+# ---
+# name: test_get_all_measurements
+  list([
+    MeasurementData(station_number='TESTA', value=53.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='H2O'),
+    MeasurementData(station_number='TESTA', value=0.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='O2'),
+    MeasurementData(station_number='TESTA', value=53.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='H2O'),
+    MeasurementData(station_number='TESTA', value=0.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='O2'),
+    MeasurementData(station_number='TESTA', value=53.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='H2O'),
+    MeasurementData(station_number='TESTA', value=0.0, timestamp_measured='2024-10-19T17:00:00+00:00', formula='O2'),
+  ])
+# ---
+# name: test_get_all_organisations
+  list([
+    OrganisationsData(name=MultiLanguageString(EN='Provincie', NL='Provincie'), id=1),
+    OrganisationsData(name=MultiLanguageString(EN='Provincie', NL='Provincie'), id=1),
+    OrganisationsData(name=MultiLanguageString(EN='Provincie', NL='Provincie'), id=1),
+  ])
+# ---
+# name: test_get_all_station_measurements
+  list([
+    StationMeasurementData(value=53.0, formula='H2O', timestamp_measured='2024-10-19T17:00:00+00:00'),
+    StationMeasurementData(value=0.0, formula='O2', timestamp_measured='2024-10-19T17:00:00+00:00'),
+    StationMeasurementData(value=53.0, formula='H2O', timestamp_measured='2024-10-19T17:00:00+00:00'),
+    StationMeasurementData(value=0.0, formula='O2', timestamp_measured='2024-10-19T17:00:00+00:00'),
+    StationMeasurementData(value=53.0, formula='H2O', timestamp_measured='2024-10-19T17:00:00+00:00'),
+    StationMeasurementData(value=0.0, formula='O2', timestamp_measured='2024-10-19T17:00:00+00:00'),
+  ])
+# ---
+# name: test_get_all_stations
+  list([
+    StationsData(number='NL01491', location='Nederland'),
+    StationsData(number='NL01497', location='Nederland'),
+    StationsData(number='NL01491', location='Nederland'),
+    StationsData(number='NL01497', location='Nederland'),
+    StationsData(number='NL01491', location='Nederland'),
+    StationsData(number='NL01497', location='Nederland'),
+  ])
+# ---

@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "formula": "H2O",
+            "value": 47.0,
+            "timestamp_measured": "2024-10-14T18:00:00+00:00"
+        },
+        {
+            "formula": "H2O",
+            "value": 47.0,
+            "timestamp_measured": "2024-10-14T19:00:00+00:00"
+        }
+    ]
+}
