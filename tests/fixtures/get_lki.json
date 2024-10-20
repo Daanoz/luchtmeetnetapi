@@ -1,0 +1,26 @@
+{
+    "pagination": {
+        "last_page": 1,
+        "first_page": 1,
+        "prev_page": 1,
+        "current_page": 1,
+        "page_list": [
+            1
+        ],
+        "next_page": 1
+    },
+    "data": [
+        {
+            "station_number": "TESTA",
+            "formula": "LKI",
+            "value": 3,
+            "timestamp_measured": "2024-10-12T21:00:00+00:00"
+        },
+        {
+            "station_number": "TESTA",
+            "formula": "LKI",
+            "value": 4,
+            "timestamp_measured": "2024-10-12T22:00:00+00:00"
+        }
+    ]
+}

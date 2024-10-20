@@ -1,0 +1,21 @@
+{
+    "pagination": {
+        "last_page": 1,
+        "first_page": 1,
+        "prev_page": 1,
+        "current_page": 1,
+        "page_list": [
+            1
+        ],
+        "next_page": 1
+    },
+    "data": [
+        {
+            "id": 1,
+            "name": {
+                "NL": "Provincie",
+                "EN": "Provincie"
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "last_page": "LAST_PAGE",
+    "first_page": "FIRST_PAGE",
+    "prev_page": "PREV_PAGE",
+    "current_page": "CURRENT_PAGE",
+    "page_list": [
+        "PAGE_LIST"
+    ],
+    "next_page": "NEXT_PAGE"
+}

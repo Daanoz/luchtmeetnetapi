@@ -1,0 +1,22 @@
+{
+    "data": {
+        "formula": "H2O",
+        "description": {
+            "NL": "Gewoon, water.",
+            "EN": "Just, water."
+        },
+        "name": {
+            "NL": "Water",
+            "EN": "Water"
+        },
+        "limits": [
+            {
+                "rating": 1,
+                "lowerband": 0,
+                "upperband": 100,
+                "color": "#0000Fff",
+                "type": "website"
+            }
+        ]
+    }
+}

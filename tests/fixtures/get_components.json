@@ -1,0 +1,28 @@
+{
+    "pagination": {
+        "last_page": 1,
+        "first_page": 1,
+        "prev_page": 1,
+        "current_page": 1,
+        "page_list": [
+            1
+        ],
+        "next_page": 1
+    },
+    "data": [
+        {
+            "formula": "H2O",
+            "name": {
+                "NL": "Water",
+                "EN": "Water"
+            }
+        },
+        {
+            "formula": "O2",
+            "name": {
+                "NL": "Zuurstof",
+                "EN": "Oxygen"
+            }
+        }
+    ]
+}
